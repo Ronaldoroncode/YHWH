@@ -1,4 +1,4 @@
-YHWH - versão: v1.00
+YHWH - versão: v1.0.0
 
 Descrição:
 
