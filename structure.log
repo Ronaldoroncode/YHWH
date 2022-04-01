@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.3.30)  1 APR 2022 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.3.30)  1 APR 2022 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -133,8 +133,93 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 28--30
 []
  []
 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...rksopen=false,breaklinks=false,pdfborder={
+                                                  0 0 1},backref=section,col...
+
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...=false,breaklinks=false,pdfborder={0 0 1},
+                                                  backref=section,colorlinks...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--32
+[] 
+ []
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \usepackage[portuguese]{
+                             babel}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
 ! Undefined control sequence.
-l.35 \setstocksize
+l.39 \setstocksize
                   {12.5cm}{9.4cm} % Paper size
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -149,7 +234,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \setstocksize{1
+l.39 \setstocksize{1
                     2.5cm}{9.4cm} % Paper size
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -166,7 +251,7 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.36 \settrimmedsize
+l.40 \settrimmedsize
                     {\stockheight}{\stockwidth}{*} % No trims
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -175,7 +260,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 \settrimmedsize{\stockheight
+l.40 \settrimmedsize{\stockheight
                                  }{\stockwidth}{*} % No trims
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -184,7 +269,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 \settrimmedsize{\stockheight}{\stockwidth
+l.40 \settrimmedsize{\stockheight}{\stockwidth
                                               }{*} % No trims
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -194,7 +279,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.37 \setlrmarginsandblock
+l.41 \setlrmarginsandblock
                           {18pt}{18pt}{*} % Left/right margins
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -212,7 +297,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.38 \setulmarginsandblock
+l.42 \setulmarginsandblock
                           {30pt}{36pt}{*} % Top/bottom margins
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -230,7 +315,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.39 \setheadfoot
+l.43 \setheadfoot
                  {14pt}{12pt} % Header/footer height
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -247,7 +332,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.40 \setheaderspaces
+l.44 \setheaderspaces
                      {*}{8pt}{*} % Extra header space
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -261,7 +346,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no * in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--45
 []
  []
 
@@ -272,7 +357,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \renewcommand{\foottextfont}
+l.50 \renewcommand{\foottextfont}
                                  {\itshape\footnotesize} % Font settings for...
 
 Try typing  <return>  to proceed.
@@ -281,7 +366,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <argument> \footmarkwidth 
                           
-l.47 \setlength{\footmarkwidth}{-.1em}
+l.51 \setlength{\footmarkwidth}{-.1em}
                                        % Space between the footnote number a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -296,7 +381,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \setlength{\footmarkwidth}{-.1em}
+l.51 \setlength{\footmarkwidth}{-.1em}
                                        % Space between the footnote number a...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -310,7 +395,7 @@ Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
 <argument> \footmarksep 
                         
-l.48 \setlength{\footmarksep}{.1em}
+l.52 \setlength{\footmarksep}{.1em}
                                     % Space between multiple footnotes on th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -325,7 +410,7 @@ Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
 <argument> 1\onelineskip 
                          
-l.50 \setlength{\skip\footins}{1\onelineskip}
+l.54 \setlength{\skip\footins}{1\onelineskip}
                                               % Space between the body text ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -336,7 +421,7 @@ and I'll forget about whatever was undefined.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.50 \setlength{\skip\footins}{1\onelineskip}
+l.54 \setlength{\skip\footins}{1\onelineskip}
                                               % Space between the body text ...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -346,12 +431,12 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 47--51
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--55
 []
  []
 
 ! Undefined control sequence.
-l.56 \makepagestyle
+l.60 \makepagestyle
                    {mio} % Define a new custom page style
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -366,7 +451,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \makepagestyle{m
+l.60 \makepagestyle{m
                      io} % Define a new custom page style
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -377,7 +462,7 @@ Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 <argument> \headwidth 
                       
-l.57 \setlength{\headwidth}{\textwidth}
+l.61 \setlength{\headwidth}{\textwidth}
                                         % Header the same width as the text
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -388,7 +473,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.57 \setlength{\headwidth}{\textwidth}
+l.61 \setlength{\headwidth}{\textwidth}
                                         % Header the same width as the text
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -397,7 +482,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.57 \setlength{\headwidth}{\textwidth}
+l.61 \setlength{\headwidth}{\textwidth}
                                         % Header the same width as the text
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -407,7 +492,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.58 \makeheadrule
+l.62 \makeheadrule
                   {mio}{\textwidth}{0.1mm} % Header rule height
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -421,7 +506,7 @@ Missing character: There is no o in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.58 \makeheadrule{mio}{\textwidth}
+l.62 \makeheadrule{mio}{\textwidth}
                                    {0.1mm} % Header rule height
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -430,7 +515,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.58 \makeheadrule{mio}{\textwidth}
+l.62 \makeheadrule{mio}{\textwidth}
                                    {0.1mm} % Header rule height
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -445,7 +530,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.59 \makeoddhead
+l.63 \makeoddhead
                  {mio}{\scriptsize{\theauthor\hskip.2cm\vrule\hskip.2cm\itsh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -457,7 +542,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.59 \makeoddhead{mio}{\scriptsize
+l.63 \makeoddhead{mio}{\scriptsize
                                   {\theauthor\hskip.2cm\vrule\hskip.2cm\itsh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -466,7 +551,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.59 \makeoddhead{mio}{\scriptsize{\theauthor
+l.63 \makeoddhead{mio}{\scriptsize{\theauthor
                                              \hskip.2cm\vrule\hskip.2cm\itsh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -475,7 +560,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.59 ...skip.2cm\vrule\hskip.2cm\itshape{\thetitle
+l.63 ...skip.2cm\vrule\hskip.2cm\itshape{\thetitle
                                                   }}}{}{} % Header specifica...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -484,7 +569,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.60 \makeoddfoot
+l.64 \makeoddfoot
                  {mio}{}{\scriptsize {\thepage \quad \vrule \quad \thelastpa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -496,7 +581,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.60 \makeoddfoot{mio}{}{\scriptsize
+l.64 \makeoddfoot{mio}{}{\scriptsize
                                      {\thepage \quad \vrule \quad \thelastpa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -505,7 +590,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.60 \makeoddfoot{mio}{}{\scriptsize {\thepage
+l.64 \makeoddfoot{mio}{}{\scriptsize {\thepage
                                                \quad \vrule \quad \thelastpa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -514,7 +599,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.60 ... {\thepage \quad \vrule \quad \thelastpage
+l.64 ... {\thepage \quad \vrule \quad \thelastpage
                                                   }}{} % Footer specification
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -523,7 +608,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.61 \makeoddfoot
+l.65 \makeoddfoot
                  {plain}{}{\footnotesize {\thepage \quad \vrule \quad \thela...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -537,7 +622,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.61 \makeoddfoot{plain}{}{\footnotesize
+l.65 \makeoddfoot{plain}{}{\footnotesize
                                          {\thepage \quad \vrule \quad \thela...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -546,7 +631,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.61 \makeoddfoot{plain}{}{\footnotesize {\thepage
+l.65 \makeoddfoot{plain}{}{\footnotesize {\thepage
                                                    \quad \vrule \quad \thela...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -555,7 +640,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.61 ... {\thepage \quad \vrule \quad \thelastpage
+l.65 ... {\thepage \quad \vrule \quad \thelastpage
                                                   }}{} % Pages of chapters
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -566,7 +651,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.62 \pagestyle{mio}
+l.66 \pagestyle{mio}
                      % Set the page style to the custom style defined above
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -575,22 +660,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 56--63
+Overfull \hbox (20.0pt too wide) in paragraph at lines 60--67
 []
  []
 
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 56--63
+Overfull \hbox (0.4pt too wide) in paragraph at lines 60--67
 |
  []
 
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 56--63
+Overfull \hbox (0.4pt too wide) in paragraph at lines 60--67
 |
  []
 
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 56--63
+Overfull \hbox (0.4pt too wide) in paragraph at lines 60--67
 |
  []
 
@@ -601,7 +686,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \renewcommand{\partnamefont}
+l.72 \renewcommand{\partnamefont}
                                  {\centering\sffamily\itshape\Huge} % Part n...
 
 Try typing  <return>  to proceed.
@@ -614,7 +699,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \renewcommand{\partnumfont}
+l.73 \renewcommand{\partnumfont}
                                 {\sffamily\Huge} % Part number font specific...
 
 Try typing  <return>  to proceed.
@@ -627,7 +712,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \renewcommand{\parttitlefont}
+l.74 \renewcommand{\parttitlefont}
                                   {\centering\sffamily\scshape} % Part title...
 
 Try typing  <return>  to proceed.
@@ -640,14 +725,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \renewcommand{\beforepartskip}
+l.75 \renewcommand{\beforepartskip}
                                    {\null\vskip.618\textheight} % Whitespace...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.77 \makechapterstyle
+l.81 \makechapterstyle
                       {Tufte}{ % Define a new chapter style
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -662,7 +747,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \makechapterstyle{T
+l.81 \makechapterstyle{T
                         ufte}{ % Define a new chapter style
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -679,7 +764,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \renewcommand{\chapterheadstart}
+l.82 \renewcommand{\chapterheadstart}
                                      {\null \vskip3.5\onelineskip} % Whitesp...
 
 Try typing  <return>  to proceed.
@@ -692,7 +777,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \renewcommand{\printchaptername}
+l.83 \renewcommand{\printchaptername}
                                      {\large\itshape\chaptername} % "Chapter...
 
 Try typing  <return>  to proceed.
@@ -705,7 +790,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \renewcommand{\printchapternum}
+l.84 \renewcommand{\printchapternum}
                                     {\LARGE\thechapter \\} % Chapter number ...
 
 Try typing  <return>  to proceed.
@@ -718,7 +803,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 \renewcommand{\afterchapternum}
+l.85 \renewcommand{\afterchapternum}
                                     {} % Space between the chapter number an...
 
 Try typing  <return>  to proceed.
@@ -731,7 +816,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 \renewcommand{\printchaptertitle}
+l.86 \renewcommand{\printchaptertitle}
                                       [1]{ % Chapter title font specification
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -743,13 +828,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 \renewcommand{\afterchaptertitle}
+l.89 \renewcommand{\afterchaptertitle}
                                       {
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.88 \chapterstyle
+l.92 \chapterstyle
                   {Tufte} % Set the chapter style to the custom style define...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -763,12 +848,12 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 77--89
+Overfull \hbox (20.0pt too wide) in paragraph at lines 81--93
 []
  []
 
 ! Undefined control sequence.
-l.94 \setsecheadstyle
+l.98 \setsecheadstyle
                      {\sethangfrom{\noindent ##1}\raggedright\sffamily\itsha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -777,7 +862,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.94 \setsecheadstyle{\sethangfrom
+l.98 \setsecheadstyle{\sethangfrom
                                   {\noindent ##1}\raggedright\sffamily\itsha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -792,14 +877,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \setsecheadstyle{\sethangfrom{\noindent
+l.98 \setsecheadstyle{\sethangfrom{\noindent
                                              ##1}\raggedright\sffamily\itsha...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.94 \setsecheadstyle{\sethangfrom{\noindent #
+l.98 \setsecheadstyle{\sethangfrom{\noindent #
                                               #1}\raggedright\sffamily\itsha...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -807,7 +892,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.94 \setsecheadstyle{\sethangfrom{\noindent ##
+l.98 \setsecheadstyle{\sethangfrom{\noindent ##
                                                1}\raggedright\sffamily\itsha...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -816,9 +901,9 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no 1 in font nullfont!
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 94.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 98.
 ! Undefined control sequence.
-l.94 ...nt ##1}\raggedright\sffamily\itshape\Large
+l.98 ...nt ##1}\raggedright\sffamily\itshape\Large
                                                   } % Section title font spe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -827,7 +912,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.95 \setbeforesecskip
+l.99 \setbeforesecskip
                       {-.6\onelineskip} % Whitespace before the section
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -839,7 +924,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 ! Undefined control sequence.
-l.95 \setbeforesecskip{-.6\onelineskip
+l.99 \setbeforesecskip{-.6\onelineskip
                                       } % Whitespace before the section
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -848,8 +933,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.96 \setaftersecskip
-                     {.3\onelineskip} % Whitespace after the section
+l.100 \setaftersecskip
+                      {.3\onelineskip} % Whitespace after the section
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -859,8 +944,8 @@ and I'll forget about whatever was undefined.
 Missing character: There is no . in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
-l.96 \setaftersecskip{.3\onelineskip
-                                    } % Whitespace after the section
+l.100 \setaftersecskip{.3\onelineskip
+                                     } % Whitespace after the section
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -868,7 +953,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.102 \setsubsecheadstyle
+l.106 \setsubsecheadstyle
                          {\sethangfrom{\noindent  ##1}\raggedright\sffamily\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -877,7 +962,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.102 \setsubsecheadstyle{\sethangfrom
+l.106 \setsubsecheadstyle{\sethangfrom
                                       {\noindent  ##1}\raggedright\sffamily\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -892,14 +977,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 \setsubsecheadstyle{\sethangfrom{\noindent
+l.106 \setsubsecheadstyle{\sethangfrom{\noindent
                                                   ##1}\raggedright\sffamily\...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.102 ...subsecheadstyle{\sethangfrom{\noindent  #
+l.106 ...subsecheadstyle{\sethangfrom{\noindent  #
                                                   #1}\raggedright\sffamily\l...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -907,7 +992,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.102 ...ubsecheadstyle{\sethangfrom{\noindent  ##
+l.106 ...ubsecheadstyle{\sethangfrom{\noindent  ##
                                                   1}\raggedright\sffamily\la...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -916,7 +1001,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.102 ...noindent  ##1}\raggedright\sffamily\large
+l.106 ...noindent  ##1}\raggedright\sffamily\large
                                                   \itshape} % Subsection tit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -925,7 +1010,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.103 \setbeforesubsecskip
+l.107 \setbeforesubsecskip
                           {-.5\onelineskip} % Whitespace before the subsection
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -937,7 +1022,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
-l.103 \setbeforesubsecskip{-.5\onelineskip
+l.107 \setbeforesubsecskip{-.5\onelineskip
                                           } % Whitespace before the subsection
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -946,7 +1031,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.104 \setaftersubsecskip
+l.108 \setaftersubsecskip
                          {.2\onelineskip} % Whitespace after the subsection
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -957,7 +1042,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-l.104 \setaftersubsecskip{.2\onelineskip
+l.108 \setaftersubsecskip{.2\onelineskip
                                         } % Whitespace after the subsection
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -966,7 +1051,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.110 \setsubsubsecheadstyle
+l.114 \setsubsubsecheadstyle
                             {\sethangfrom{\noindent ##1}\raggedright\sffamil...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -975,7 +1060,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.110 \setsubsubsecheadstyle{\sethangfrom
+l.114 \setsubsubsecheadstyle{\sethangfrom
                                          {\noindent ##1}\raggedright\sffamil...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -990,14 +1075,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 ...subsubsecheadstyle{\sethangfrom{\noindent
+l.114 ...subsubsecheadstyle{\sethangfrom{\noindent
                                                    ##1}\raggedright\sffamily...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.110 ...bsubsecheadstyle{\sethangfrom{\noindent #
+l.114 ...bsubsecheadstyle{\sethangfrom{\noindent #
                                                   #1}\raggedright\sffamily\i...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1005,7 +1090,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.110 ...subsecheadstyle{\sethangfrom{\noindent ##
+l.114 ...subsecheadstyle{\sethangfrom{\noindent ##
                                                   1}\raggedright\sffamily\it...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1014,7 +1099,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.111 \setbeforesubsubsecskip
+l.115 \setbeforesubsubsecskip
                              {-.5\onelineskip} % Whitespace before the subsu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1026,7 +1111,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
-l.111 \setbeforesubsubsecskip{-.5\onelineskip
+l.115 \setbeforesubsubsecskip{-.5\onelineskip
                                              } % Whitespace before the subsu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1035,7 +1120,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.112 \setaftersubsubsecskip
+l.116 \setaftersubsubsecskip
                             {.1\onelineskip} % Whitespace after the subsubse...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1046,7 +1131,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no . in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.112 \setaftersubsubsecskip{.1\onelineskip
+l.116 \setaftersubsubsecskip{.1\onelineskip
                                            } % Whitespace after the subsubse...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1055,7 +1140,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.118 \captiontitlefont
+l.122 \captiontitlefont
                        {\itshape\footnotesize} % Caption font specification
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1064,7 +1149,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.118 \captiontitlefont{\itshape\footnotesize
+l.122 \captiontitlefont{\itshape\footnotesize
                                              } % Caption font specification
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1073,7 +1158,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.119 \captionnamefont
+l.123 \captionnamefont
                       {\footnotesize} % "Caption" text font specification
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1082,7 +1167,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.119 \captionnamefont{\footnotesize
+l.123 \captionnamefont{\footnotesize
                                     } % "Caption" text font specification
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1097,7 +1182,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \renewenvironment{quotation}
+l.129 \renewenvironment{quotation}
                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1109,13 +1194,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \renewenvironment{quote}
+l.137 \renewenvironment{quote}
                               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.142 \midsloppy
+l.146 \midsloppy
                  % Fewer overfull lines - used in the memoir class and allow...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1124,7 +1209,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.144 \checkandfixthelayout
+l.148 \checkandfixthelayout
                             % Tell memoir to implement the above
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1146,5 +1231,5 @@ Here is how much of TeX's memory you used:
  17335 multiletter control sequences out of 15000+600000
  404437 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 16i,1n,15p,177b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 16i,1n,15p,215b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
